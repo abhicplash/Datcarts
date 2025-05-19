@@ -1,0 +1,38 @@
+.TopbarContainer {
+  width: 100%;
+  height: 7vh;background-color: #fff;
+  /* background-color:var(--offwhite); */
+  /* background: linear-gradient(to bottom, var(--offwhite), var(--lightgreen)); */
+  color: var(--green);
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbarSocialMedia {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+.topbarDetailsContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.topbarDetailsleftwrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+.topbardata {
+  font-size: 1rem;
+
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 768px) {
+  .TopbarContainer {
+    display: none;
+  }
+}

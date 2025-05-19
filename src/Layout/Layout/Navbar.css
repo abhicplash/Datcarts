@@ -1,0 +1,36 @@
+.NavbarContainer {
+  width: 100%;
+  height: 10vh;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid red;
+}
+.Navlogo {
+  width: 11rem;
+}
+.navicon {
+  display: none;
+  font-size: 1.5rem;
+  color: var(--green);
+}
+.listDesk {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10%;
+  text-transform: capitalize;
+}
+.listDesk li {
+  color: var(--green);
+}
+
+@media (max-width: 768px) {
+  .navicon {
+    display: flex;
+  }
+  .listDesk {
+    display: none;
+  }
+}
