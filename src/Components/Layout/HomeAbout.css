@@ -1,0 +1,52 @@
+.HomeAbout-container {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeaboutWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+.HomeAboutCards-container {
+  width: 17rem;
+  height: 17rem;
+  background-color: var(--darkblue);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.iconwrapper {
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--white);
+  background: linear-gradient(to bottom, var(--white), var(--gray));
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  color: var(--darkblue);
+}
+.HomeAboutCards-container .head {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--white);
+}
+.HomeAboutCards-container .para {
+  font-size: 1rem;
+  color: var(--gray);
+  text-transform: capitalize;
+  width: 95%;
+}

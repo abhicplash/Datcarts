@@ -1,0 +1,18 @@
+.PageTop-container {
+  width: 100%;
+  min-height: 60vh;
+  background: url("../../Assets/banner/ddcart.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.PageTop-Shadow {
+  width: 100%;
+  min-height: 60vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #21273384;
+  color: var(--gray);
+}

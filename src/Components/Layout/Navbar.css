@@ -1,0 +1,96 @@
+.Navbar-container {
+  width: 100%;
+  min-height: 10vh;
+  /* border-bottom: 1px solid; */
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to bottom, var(--white), var(--gray));
+}
+.Navbar-container img {
+  width: 10rem;
+}
+.navIcon {
+  display: none;
+  font-size: 1.7rem;
+  color: var(--darkblue);
+}
+.navImg a {
+  display: flex;
+  align-items: center;
+  /* font-size: 0.9rem; */
+  font-family: "Mulish", serif;
+  flex-direction: column;
+}
+.nav-eicra-head {
+  font-size: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--darkblue);
+}
+.listmob {
+  display: none;
+  position: absolute;
+  top: 18.5vh;
+  right: 0;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  min-height: 80vh;
+  background-color: var(--white);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 2rem 0;
+  gap: 10px;
+  animation: slideup 0.8s forwards;
+  z-index: 70;
+}
+@keyframes slideup {
+  0% {
+    /* background-color: green; */
+    top: 80vh;
+  }
+  100% {
+    top: 17vh;
+  }
+}
+
+.listmob a {
+  width: 90%;
+  border: 1px solid var(--gray);
+  background: linear-gradient(to bottom, var(--white), var(--gray));
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--darkblue);
+  font-weight: 600;
+}
+.listDesk {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 50%;
+  text-transform: capitalize;
+  align-items: center;
+  justify-content: space-around;
+}
+.listDesk a {
+  color: var(--darkblue);
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .navIcon {
+    display: flex;
+  }
+  .listmob {
+    display: flex;
+  }
+  .listDesk {
+    display: none;
+  }
+}

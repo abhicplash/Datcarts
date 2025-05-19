@@ -1,0 +1,38 @@
+.AboutBanner-container {
+  width: 100%;
+  /* min-height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+  gap: 2rem;
+}
+.bannerTextwrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.IASEICRA {
+  color: var(--darkblue);
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+.bannerTextpara {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 50%;
+}
+.aboutboxes {
+  width: 75%;
+  font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .aboutboxes {
+    width: 100%;
+  }
+  .bannerTextpara {
+    width: 100%;
+  }
+}

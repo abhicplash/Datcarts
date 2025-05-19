@@ -1,0 +1,48 @@
+.teamCardWrapper {
+  width: 12rem;
+  /* height: 14rem; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
+}
+.memberImg {
+  width: 100%;
+  height: 12rem;
+  /* border-radius: 10px; */
+  box-shadow: 1px 1px 10px 1px gray;
+}
+.memberDetails {
+  width: 100%;
+  height: 5rem;
+  /* background-color: green; */
+  background-color: var(--gray);
+  /* height: 10rem; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  z-index: 20;
+  /* border: 1px solid red; */
+  /* border-radius: 8px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--darkblue);
+  /* border: 0.2px solid var(--darkblueprimary); */
+  /* box-shadow: 1px 1px 10px 1px gray; */
+  /* gap: 10px; */
+}
+.memberName {
+  font-weight: 800;
+  font-size: 1.1rem;
+  /* color: var(--darkblue); */
+}
+.memberDesc {
+  font-weight: 500;
+  color: var(--darkblue);
+  font-size: 0.8rem;
+  width: 95%;
+}

@@ -1,0 +1,150 @@
+.mission-vision-container {
+  width: 100%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 5rem 0;
+}
+.about-img {
+  width: 40%;
+  height: 25rem;
+  background-image: url("../../Assets/feautres/1.PNG");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+  background-size: cover;
+  position: relative;
+  box-shadow: 1px 1px 10px 1px #fff;
+}
+.smallimages {
+  width: 15rem;
+  height: 6rem;
+  bottom: -3rem;
+  position: absolute;
+  right: -3rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 6px 1px #fff;
+}
+.images {
+  width: 6.5rem;
+  height: 5rem;
+  border-radius: 5px;
+}
+.aboutus {
+  font-family: "Playwrite AU VIC Guides", serif;
+  font-size: 1.2rem;
+  color: #f08e2a;
+}
+.about-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--darkblue);
+}
+.about-para {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.vision-icon {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background-color: var(--darkblue);
+  margin-top: 1.2rem;
+}
+.mission-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--darkblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin-top: 1.2rem;
+}
+.mission-img-icon {
+  width: 1rem;
+  border-radius: 0.5rem;
+}
+.vision {
+  color: var(--gray);
+  font-size: 1.4rem;
+}
+.vision-para {
+  width: 80%;
+  color: white;
+}
+.mission-vision {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-btn {
+  padding: 0.5rem 2rem;
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  background-color: var(--darkblue);
+  border-radius: 5px;
+  font-family: inherit;
+}
+.right-side-details {
+  width: 35%;
+}
+@media (max-width: 768px) {
+  .mission-vision-container {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 17rem;
+    height: 13rem;
+  }
+  .smallimages {
+    display: none;
+  }
+  .images {
+    width: 4rem;
+    height: 3rem;
+  }
+  .about-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 90%;
+    /* width: 16rem; */
+  }
+  .about-para {
+    width: 90%;
+    text-align: center;
+    /* color: red; */
+  }
+  .vision-icon,
+  .mission-icon {
+    width: 3rem;
+    height: 3rem;
+    /* margin-top: 2.5rem; */
+  }
+  .vision-para {
+    width: 70%;
+    /* width: 13rem; */
+  }
+  .right-side-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}

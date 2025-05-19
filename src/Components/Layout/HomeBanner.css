@@ -1,0 +1,68 @@
+.HomeBanner-container {
+  width: 100%;
+  min-height: 85vh;
+  background: url("../../Assets/banner/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iaseicra {
+  font-size: 4rem;
+  font-weight: 900;
+  /* color: var(--darkblue); */
+  /* color: var(--white); */
+  color: whitesmoke;
+  margin-left: 60px;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+.bannerShadowWrapper {
+  width: 100%;
+  min-height: 85vh;
+  background-color: #2127337b;
+  display: flex;
+  gap: 5px;
+}
+.bannerDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  /* align-items: center; */
+}
+.bannerpara {
+  /* text-align: center; */
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: var(--gray);
+  width: 35rem;
+  margin-left: 60px;
+}
+.bannerDetails button {
+  margin-left: 60px;
+}
+@media (max-width: 768px) {
+  .bannerShadowWrapper {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .iaseicra {
+    margin-left: 0;
+    font-size: 2.3rem;
+  }
+  .bannerpara {
+    text-align: center;
+    width: 16rem;
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+  .bannerDetails {
+    align-items: center;
+  }
+  .bannerDetails button {
+    margin-left: 0px;
+  }
+}
