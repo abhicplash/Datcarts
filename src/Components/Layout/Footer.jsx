@@ -21,34 +21,42 @@ const Footer = () => {
           <div className="FooterLinks">
             <h3>Navigation</h3>
             <div className="subcontents">
-              <Link>home</Link>
-              <Link>About us</Link>
-              <Link>Academics</Link>
-
-              <Link>Contact us</Link>
+              <Link to={"/"}>home</Link>
+              <Link to={"/about"}>About us</Link>
+              <Link to={"/contact"}>Contact us</Link>
             </div>
-          </div>{" "}
+          </div>
           <div className="FooterLinks">
-            <h3>Contact Information</h3>
+            <h3 className="contactInfoFooter">Contact Information</h3>
             <div className="subcontents">
               <a className="numberFooter" href="/">
-                +91 790 777 2742
+                +91 9544 056 839
               </a>
               <a className="numberFooter" href="/">
-                +91 9544 056 839
+                +91 9562 465 095
+              </a>
+              <a className="numberFooter" href="/">
+                connectingdotstech@hotmail.com
               </a>
             </div>
           </div>{" "}
         </div>
       </div>
       <div className="footer-lower">
-        <a href="https://www.facebook.com/p/Iaseicra-Academy-61555656762023">
+        <a
+          rel="noreferrer"
+          href="https://www.facebook.com/p/Iaseicra-Academy-61555656762023"
+        >
           <BsFacebook />
         </a>
         <a href="https://www.youtube.com/channel/UCZrlcE6dnEZMjRE4bUqlU-Q">
           <BsYoutube />
         </a>
-        <a href="https://www.instagram.com/iaseicra.uae/">
+        <a
+          rel="noreferrer"
+          href="https://www.instagram.com/datcarts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank"
+        >
           <BsInstagram />
         </a>
         <a href="https://iaseicra.com/#">
@@ -57,7 +65,11 @@ const Footer = () => {
         <a href="https://iaseicra.com/#">
           <BsTelegram />
         </a>
-        <a href="https://iaseicra.com/#">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.linkedin.com/company/connecting-dots-tech-venture/"
+        >
           <BsLinkedin />
         </a>
       </div>

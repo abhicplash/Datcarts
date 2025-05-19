@@ -1,6 +1,5 @@
 .contact-container {
   width: 100%;
-  /* height: 250vh; */
   background-color: var(--white);
   padding: 2rem 0;
   display: flex;
@@ -64,7 +63,6 @@
 }
 .location {
   font-size: 2rem;
-  /* color: var(--white); */
   color: var(--gray);
 }
 .our-location {
@@ -78,11 +76,15 @@
   text-align: center;
   font-family: "Mulish", serif;
 }
+.location-paraadd {
+  text-align: center;
+  color: rgb(156, 154, 154);
+}
 .location-paraphone {
   color: var(--darkblue);
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: center;
-  font-family: "Mulish", serif;
+  /* font-family: "Mulish", serif; */
 }
 .phonenumber {
   color: var(--darkblue);
@@ -97,12 +99,12 @@
 .second-row {
   width: 40rem;
   height: 30rem;
-  /* border: 1px solid red; */
-  background-color: var(--gray);
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
+  background: linear-gradient(to bottom, var(--gray), var(--white));
+  border: 1px solid var(--darkblue);
 }
 .message {
   width: 90%;
@@ -161,17 +163,12 @@
   width: 32rem;
   height: 3rem;
   border: none;
-  /* background-color: var(--darkbluesecondary); */
   color: white;
   font-family: inherit;
-  /* background: linear-gradient(
-    to bottom,
-    var(--darkblueprimary),
-    var(--darkbluesecondary)
-  ); */
   background: linear-gradient(to right bottom, #156aa1, #1d2168);
   font-size: 1.05rem;
 }
+
 .form-container {
   width: 100%;
   display: flex;
@@ -216,8 +213,8 @@
   /* color: gray; */
   width: 80%;
 }
-.contactPara{
-  color: white;
+.contactPara {
+  color: var(--darkblue);
 }
 @media (max-width: 768px) {
   .first-row p {

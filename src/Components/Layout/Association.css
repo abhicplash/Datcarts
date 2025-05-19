@@ -23,8 +23,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 .AssociationCompanies img {
-  width: 15rem;
+  width: 12rem;
 }

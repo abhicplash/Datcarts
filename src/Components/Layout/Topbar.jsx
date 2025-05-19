@@ -19,7 +19,11 @@ const Topbar = () => {
         <a href="https://www.youtube.com/channel/UCZrlcE6dnEZMjRE4bUqlU-Q">
           <BsYoutube />
         </a>
-        <a href="https://www.instagram.com/iaseicra.uae/">
+        <a
+          rel="noreferrer"
+          href="https://www.instagram.com/datcarts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank"
+        >
           <BsInstagram />
         </a>
         <a href="https://iaseicra.com/#">
@@ -28,15 +32,19 @@ const Topbar = () => {
         <a href="https://iaseicra.com/#">
           <BsTelegram />
         </a>
-        <a href="https://iaseicra.com/#">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.linkedin.com/company/connecting-dots-tech-venture/"
+        >
           <BsLinkedin />
         </a>
       </div>
       <div className="topbar-contact">
-        <div className="topbar-contact-details">
+        {/* <div className="topbar-contact-details">
           <BsFillTelephoneFill />
           <h2>+91 790 777 2742</h2>
-        </div>
+        </div> */}
         <div className="topbar-contact-details">
           <FaEnvelope />
           <h2>connectingdotstech@hotmail.com</h2>

@@ -46,3 +46,8 @@
   font-size: 0.8rem;
   width: 95%;
 }
+@media (max-width: 768px) {
+  .teamCardWrapper {
+    width: 15rem;
+  }
+}

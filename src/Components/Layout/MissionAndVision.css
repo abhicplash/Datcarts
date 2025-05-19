@@ -1,6 +1,7 @@
 .mission-vision-container {
   width: 100%;
   background-color: var(--white);
+  /* background: linear-gradient(to bottom, var(--gray), var(--white)); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,13 +11,8 @@
 .about-img {
   width: 40%;
   height: 25rem;
-  background-image: url("../../Assets/feautres/1.PNG");
-  background-size: cover;
-  background-position: center;
   border-radius: 0.5rem;
-  background-size: cover;
-  position: relative;
-  box-shadow: 1px 1px 10px 1px #fff;
+  box-shadow: 1px 1px 10px 1px var(--darkblue);
 }
 .smallimages {
   width: 15rem;
@@ -82,7 +78,8 @@
 }
 .vision-para {
   width: 80%;
-  color: white;
+  color: var(--lightblue);
+  font-size: 0.9rem;
 }
 .mission-vision {
   gap: 1rem;
@@ -91,7 +88,7 @@
   justify-content: center;
 }
 .about-btn {
-  padding: 0.5rem 2rem;
+  /* padding: 0.5rem 2rem; */
   color: white;
   border: none;
   text-align: center;

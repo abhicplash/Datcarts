@@ -3,16 +3,18 @@ import "./MissionAndVision.css";
 import { BsEyeFill } from "react-icons/bs";
 import { TbTargetArrow } from "react-icons/tb";
 import { Link } from "react-router-dom";
+import aboutimg from "../../Assets/feautres/1.PNG";
 
 const MissionAndVision = () => {
   return (
     <div className="mission-vision-container">
-      <div className="about-img"></div>
+      {/* <div className="about-img"></div> */}
+      <img src={aboutimg} className="about-img" alt="" />
       <div className="right-side-details">
         <div className="about-heading">Hassle Free Shopping Experience...</div>
-        <p className="about-para">
+        {/* <span className="about-para">
           Smart carts for a seamless shopping experience !
-        </p>
+        </span> */}
         <div className="mission-vision">
           <div className="vision-icon">
             <BsEyeFill className="vision" />
@@ -33,7 +35,7 @@ const MissionAndVision = () => {
           </p>
         </div>
         <Link to={"/about"}>
-          <button className="about-btn">Contact Us</button>
+          <button className="about-btn">Explore more</button>
         </Link>
       </div>
     </div>

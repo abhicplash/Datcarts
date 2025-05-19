@@ -8,11 +8,12 @@
 .PageTop-Shadow {
   width: 100%;
   min-height: 60vh;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #21273384;
-  color: var(--gray);
+  font-size: 1.5rem;
+  color: var(--darkblue);
 }

@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 
 body {
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Sora", sans-serif;
+  /* font-family: "Playfair Display", serif; */
   /* -- numbers--
    font-family: "Mulish", serif; 
    */
@@ -14,8 +16,10 @@ body {
 
 :root {
   --darkblue: #033f47;
-  --white: #8eb69b;
-  --gray: #f8f7f2;
+  --lightblue: #046672;
+  --white: #f8f7f2;
+  --gray: #d8d8d8;
+  /* -- */
 }
 button {
   text-transform: capitalize;
@@ -29,6 +33,7 @@ button {
   border: 1px solid var(--gray);
   background-color: var(--darkblue);
   color: var(--gray);
+  cursor: pointer;
 }
 a {
   text-decoration: none;
