@@ -1,14 +1,14 @@
-import React from 'react'
-import './PageTop.css'
+import React from "react";
+import "./PageTop.css";
 
-const PageTop = ({pageName}) => {
+const PageTop = ({ pageName }) => {
   return (
     <div className="PageTop-container">
-        <div className="PageTop-Shadow">
-            <h1>{pageName}</h1>
-        </div>
+      <div className="PageTop-Shadow">
+        <h1>{pageName}</h1>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default PageTop
+export default PageTop;

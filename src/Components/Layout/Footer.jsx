@@ -23,6 +23,7 @@ const Footer = () => {
             <div className="subcontents">
               <Link to={"/"}>home</Link>
               <Link to={"/about"}>About us</Link>
+              <Link to={"/Products"}>Products</Link>
               <Link to={"/contact"}>Contact us</Link>
             </div>
           </div>

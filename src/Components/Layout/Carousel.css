@@ -1,0 +1,28 @@
+.carousel-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-container {
+  width: 80%;
+  /* max-width: 100%; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 92%;
+  }
+  .carousel-image {
+    height: 50vh;
+  }
+}

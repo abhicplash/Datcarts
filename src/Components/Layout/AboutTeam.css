@@ -6,8 +6,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background-color: var(--whiteshade); */
-  /* padding: 3rem 0; */
   gap: 3rem;
 }
 .ourTeamWrapper {
@@ -40,30 +38,14 @@
 .teamIntro {
   font-size: 1.2rem;
 }
-
-/* 
-// <div className="AboutTeam-container">
-    //   <div className="teamHead">
-    //     <h1 className="ourteam">Our Team</h1>
-    //     <span className="meetteam">Meet the minds behind the magic</span>
-    //     <span className="teamIntro">
-    //      Meet the passionate team driving innovation and excellence behind of Datcart.
-    //     </span>
-    //   </div>
-    //   <div className="ourTeamWrapper">
-    //     {ourTeam.map((member, index) => (
-    //       <Link key={member.id}>
-    //         <TeamCard
-    //           key={index}
-    //           image={member.image}
-    //           name={member.name}
-    //           desc={member.desc}
-    //           post={member.post}
-    //         />
-    //       </Link>
-    //     ))}
-    //   </div>
-    // </div> */
+.team-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 .AboutTeamWrapper {
   width: 100%;
   display: flex;

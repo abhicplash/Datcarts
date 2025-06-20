@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="listmob">
             <Link to={"/"}>home</Link>
             <Link to={"/about"}>About us</Link>
-            {/* <Link to={"/academics"}>academics</Link> */}
+            <Link to={"/products"}>products</Link>
             {/* <Link to={"/blogs"}>blogs</Link> */}
             <Link to={"/contact"}>contact us</Link>
           </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="listDesk">
           <Link to={"/"}>home</Link>
           <Link to={"/about"}>About us</Link>
-          {/* <Link to={"/academics"}>academics</Link> */}
+          <Link to={"/products"}>products</Link>
           {/* <Link to={"/blogs"}>blogs</Link> */}
           <Link to={"/contact"}>contact us</Link>
         </div>

@@ -19,7 +19,8 @@ body {
   --lightblue: #046672;
   --white: #f8f7f2;
   --gray: #d8d8d8;
-  /* -- */
+  --black: #282828;
+  --green: #04af48;
 }
 button {
   text-transform: capitalize;

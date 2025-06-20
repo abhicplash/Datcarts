@@ -16,7 +16,7 @@ const About = () => {
           We offer a smart solution for a perfect experience in store
         </div>
         <div className="service-box">
-          <div className="service-box-rowone">
+          <div className="service-box-wrapper">
             {allServicesList.map((list, index) => (
               <div className="services" key={index}>
                 <img
